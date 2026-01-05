@@ -45,17 +45,14 @@ def main():
 
             print(f"\nAverage product price: {avg_price:.2f}")
 
+        
         elif choice == "4":
-            print("Exiting...")
-            break
-
-        elif choice == "5":
             orders = loader.fetch_all("SELECT * FROM orders")
             print("\nOrders:")
             for o in orders:
                 print(o)
 
-        elif choice == "6":
+        elif choice == "5":
             orders = loader.fetch_all("SELECT * FROM orders")
             products = loader.fetch_all("SELECT * FROM products")
 
@@ -70,7 +67,7 @@ def main():
 
             print(f"\nTotal revenue: {total_revenue:.2f}")
 
-        elif choice == "7":
+        elif choice == "6":
             orders = loader.fetch_all("SELECT * FROM orders")
             products = loader.fetch_all("SELECT * FROM products")
 
@@ -88,7 +85,7 @@ def main():
                 revenue = revenue_per_product.get(pid, 0)
                 print(f"{name}: {revenue:.2f}")
 
-        elif choice == "8":
+        elif choice == "7":
                 orders = loader.fetch_all("SELECT * FROM orders")
                 products = loader.fetch_all("SELECT * FROM products")
 
@@ -105,6 +102,9 @@ def main():
                 for day, revenue in revenue_per_day.items():
                     print(f"{day}: {revenue:.2f}")
 
+        elif choice == "8":
+                print("Exiting...")
+                break
        
         else:
         
