@@ -9,11 +9,11 @@ def show_menu():
     print("1. Show all products")
     print("2. Show products sorted by price (desc)")
     print("3. Show average product price")
-    print("4. Exit")
-    print("5. Show all orders")
-    print("6. Show total revenue")
-    print("7. Show revenue per product")
-    print("8. Show revenue per day")
+    print("4. Show all orders")
+    print("5. Show total revenue")
+    print("6. Show revenue per product")
+    print("7. Show revenue per day")
+    print("8. Exit")
 
 
 def main():
