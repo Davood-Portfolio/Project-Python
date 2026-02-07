@@ -1,0 +1,3 @@
+{'row': {'name': 'Sara', 'age': 'not_number', 'salary': '4000', 'date': '2024-02-10'}, 'errors': ['Invalid age']}
+{'row': {'name': 'Reza', 'age': '30', 'salary': 'invalid', 'date': '2024-13-01'}, 'errors': ['Invalid salary', 'Invalid date']}
+{'row': {'name': '', 'age': '', 'salary': '5000', 'date': '2024-03-01'}, 'errors': ['Invalid age']}
