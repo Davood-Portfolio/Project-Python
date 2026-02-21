@@ -1,45 +1,121 @@
-# Project-Python
+# Project-Python  
+A curated portfolio of Python-based projects focused on CLI tools, data analytics, data cleaning, log processing, API integration, and modular software design.  
+This repository showcases my ability to build real-world, maintainable, and well‑structured Python applications.
 
-A curated portfolio of Python-based projects focused on CLI tools, data analytics, data cleaning, log processing, API integration, and modular software design.
+---
 
-## Featured Projects
+## 🚀 Featured Projects
 
-### [TaskFlow Engine](./taskflow-engine)
-A clean, modular, and extensible command-line task manager built with Python, OOP principles, and SQLite persistence.
+### **TaskFlow Engine**
+A clean and modular command-line task manager built with Python, OOP principles, and SQLite persistence.
 
-### [DataInsight Engine](./datainsight-engine)
-A professional CLI data analytics engine that provides product insights, order analysis, and revenue calculations using SQLite.
+**Highlights**
+- Task creation, filtering, and persistent storage  
+- Modular architecture with clear separation of concerns  
+- SQLite-backed data layer  
 
-### [DataClean Pro](./dataclean-pro)
-A lightweight data-cleaning and validation engine that processes CSV files, detects invalid values, converts data types, and generates detailed error reports.
+---
 
-### [LogAnalyzer Pro](./loganalyzer-pro)
-A modular log analysis engine that parses log files, extracts structured information, identifies errors and warnings, and generates clean summary reports.
+### **DataInsight Engine**
+A professional CLI analytics engine for product insights, order analysis, and revenue calculations.
 
-### [API Fetcher Tool](./api-fetcher-tool)
-A flexible and modular CLI tool for fetching data from public APIs, validating responses, handling errors, and generating structured JSON and text reports.
+**Highlights**
+- Revenue breakdown and product-level analytics  
+- SQLite integration for structured data  
+- Clean reporting and CLI-driven workflow  
 
-## Skills Demonstrated
+---
 
-- Python 3 (OOP, modular design)
-- CLI development
-- Data validation & cleaning
-- SQLite integration
-- Data analysis and reporting
-- Log parsing & error detection
-- API integration & HTTP requests
-- JSON processing
-- File handling (CSV, TXT, JSON)
-- Project structuring and documentation
+### **DataClean Pro**
+A lightweight data-cleaning and validation engine for CSV datasets.
 
-## Repository Structure
+**Highlights**
+- Invalid value detection  
+- Type conversion and row filtering  
+- Detailed error reporting  
 
-Each project is organized as an independent module with:
-- `src/` for source code  
-- `data/`, `logs/`, or `config/` for input files  
-- `output/` for generated reports  
-- `README.md` for documentation  
+---
 
-## About
+### **LogAnalyzer Pro**
+A modular log analysis engine that parses log files and extracts structured information.
 
-This repository showcases my ability to build real-world Python applications with clean architecture, persistent storage, data processing pipelines, log analysis tools, API integration utilities, and professional documentation.
+**Highlights**
+- Error and warning detection  
+- Regex‑based parsing  
+- Clean summary reports  
+
+---
+
+### **API Fetcher Tool**
+A flexible CLI tool for fetching data from public APIs, validating responses, and generating structured reports.
+
+**Highlights**
+- HTTP requests and response validation  
+- JSON output generation  
+- Error handling and modular design  
+
+---
+
+## 📁 Repository Structure
+
+Each project follows a consistent structure:
+
+
+This structure ensures clarity, maintainability, and ease of navigation.
+
+---
+
+## 🧠 Skills Demonstrated
+
+- Python 3 (OOP, modular design)  
+- CLI development  
+- SQLite integration  
+- Data validation & cleaning  
+- Data analysis and reporting  
+- Log parsing & error detection  
+- API integration & HTTP requests  
+- JSON processing  
+- File handling (CSV, TXT, JSON)  
+- Project structuring and documentation  
+
+---
+
+## 📘 Exercism Python Solutions (`solutions/python`)
+
+This section contains my solved Python exercises from the **Exercism** learning platform.  
+These challenges demonstrate clean, idiomatic Python code and consistent practice with problem‑solving and test‑driven development.
+
+### Includes:
+- Multiple small, focused Python exercises  
+- Automated tests provided by Exercism  
+- Iterative improvements synced automatically  
+- Clean and readable implementations  
+
+### Example Exercises:
+- **Hello World** — basic syntax and test structure  
+- **Guido’s Gorgeous Lasagna** — functions and constants  
+- **Ghost Gobble Arcade Game** — conditional logic and game-style decisions  
+
+More exercises are added as I progress through the Python track.
+
+---
+
+## 📌 About This Repository
+
+This portfolio highlights my ability to:
+
+- Build real-world Python applications  
+- Design modular and maintainable architectures  
+- Work with persistent storage and data pipelines  
+- Parse logs, clean datasets, and analyze structured data  
+- Integrate APIs and handle JSON/HTTP workflows  
+- Write clear documentation and organized project structures  
+
+All project source code is available in this repository.
+
+---
+
+## 📫 Contact
+
+If you'd like to discuss any project or collaborate, feel free to reach out.
+
