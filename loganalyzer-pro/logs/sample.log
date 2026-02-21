@@ -1,5 +1,0 @@
-INFO 2024-01-01 10:00:00 User logged in
-ERROR 2024-01-01 10:05:12 Database connection failed
-WARNING 2024-01-01 10:06:00 Low disk space
-INFO 2024-01-01 10:10:00 File uploaded
-ERROR 2024-01-01 10:15:00 Timeout while processing request

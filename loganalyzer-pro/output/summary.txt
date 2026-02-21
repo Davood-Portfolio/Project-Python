@@ -1,6 +1,0 @@
-Log Summary Report
-=================
-Total entries: 5
-INFO: 2
-WARNING: 1
-ERROR: 2
